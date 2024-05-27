@@ -4,7 +4,6 @@
 // Name: Lim Jie Han
 // Matric No.: A21EC3013
 
-import 
 class Address {
     private String street;
     private String city;
