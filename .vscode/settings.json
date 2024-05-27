@@ -2,5 +2,6 @@
     "cSpell.words": [
         "BRCA",
         "INPS"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
