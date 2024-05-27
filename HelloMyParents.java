@@ -16,7 +16,6 @@ class HelloMyParents {
 // there are more rules to follow than the Python language. Overall, the Java
 // language is a bit more complex than the Python language. However, it is
 // very important to learn the Java language because it is still one of the most
-// popular
-// programming language in the world. Overall, the programming skills becomes
+// popular programming language in the world. Overall, the programming skills becomes
 // more important nowadays so it is still very important to learn the Java
 // programming language.
