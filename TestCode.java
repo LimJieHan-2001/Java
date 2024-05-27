@@ -1,41 +1,40 @@
+import.java.util.ArrayList;
 
 class Course {
     private String courseName;
     private String teacher;
     private static double instances = 0;
-    private ArrayList(Student) studentList;
+    private ArrayList<Student> studentList; // Correct the declaration
 
     public String getCourseName(){
         return this.courseName;
     }
    
     public String getTeacher(){
-        return this.Teacher;
+        return this.teacher; // Correct the case
     }
 
-    
-    public String Course(String courseName, String teacher){
+    public Course(String courseName, String teacher){ 
         this.studentList = new ArrayList<>();
         this.courseName = courseName;
         this.teacher = teacher;
     }
 
-    public void addStudent(Student student){
-        if (Student==null || studentList.contains(Student)) {
+    public boolean addStudent(Student student){ // Add the return type
+        if (student==null || studentList.contains(student)) { // Correct the case
             return false;
         }
         Course.instances++;
-        studentList.add();
-        return true;
+        studentList.add(student); // Add the parameter
     }
 
     public void printStudents(){
     for(Student s : studentList)
-            System.out.println(studentList.getName() + ", with " + studentList.getAge() + " year(s)");
+            System.out.println(s.getName() + ", with " + s.getAge() + " year(s)"); // Correct the reference
       System.out.println("Current #student "+ Course.instances);
       
       int y = studentList.get(3).getAge();
-      System.out.println("Youngest # "+ Y + " years old");
+      System.out.println("Youngest # "+ y + " years old");
     }  
 }  
     
