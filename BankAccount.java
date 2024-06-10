@@ -2,6 +2,9 @@
 // Parent class BankAccount
 // Name: Lim Jie Han
 // Matric no: A21EC3013
+
+// BankAccount.java
+// Parent class BankAccount
 public class BankAccount {
     private String accountNumber;
     private double balance;
@@ -88,3 +91,9 @@ public class TestInherit1 {
         System.out.println("Balance after trying to withdraw $250: $" + SA1000.getBalance());
     }
 }
+
+
+
+
+
+

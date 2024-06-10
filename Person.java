@@ -3,6 +3,9 @@
 // Name: Lim Jie Han
 // Matric no: A21EC3013
 
+// Person.java
+// Parent class Person
+
 public class Person {
     private String firstName;
     private String lastName;
@@ -55,5 +58,3 @@ public class Main { // Updated class name to 'Main'
         System.out.println(employee2.getFirstName() + " " + employee2.getLastName() + " (" + employee2.getEmployeeId() + ")");
     }
 }
-
-
